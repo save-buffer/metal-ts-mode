@@ -12,3 +12,6 @@
     (treesit-major-mode-setup)))
 
 (add-to-list 'auto-mode-alist '("\\.metal\\'" . metal-ts-mode))
+
+(provide 'metal-ts-mode)
+;;; metal-ts-mode.el ends here
